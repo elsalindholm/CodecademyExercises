@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  color: rgb(240, 230, 140);
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: 700;
+  background-image: url(./Images/Dashmoto1.webp);
+  text-align: center;
+  display: block;
+  margin-block-end: 67px;
+  margin-block-start: 67px;
+}
+
+h2, h3, p {
+  font-family: Helvetica;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
+
+.price {
+  color: blue;
+  font-weight: bold;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
