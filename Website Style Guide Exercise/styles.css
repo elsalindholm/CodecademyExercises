@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.pageContainer {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#websiteTitle {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #394648;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C8D6AF;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.colours {
+  height: 40%;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.fonts {
+  height: 60%;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.textStyles {
+  height: 60%;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.colours .title {
+  height: 25%;
+  width: 100%;
+  padding: 15px;
+}
+
+.fonts .title {
+  height: 20%;
+  width: 100%;
+  padding: 15px;
+}
+
+.textStyles .title {
+  height: 20%;
+  width: 100%;
+  padding: 15px;
+}
+
+.colourCardContainer {
+  height: 75%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.colourCard {
+  padding: 10%;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.colourCard h2 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.colourCard p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*colour cards*/
+#colour1 {
+  background-color: #394648;
+}
+
+#colour2 {
+  background-color: #B399A2;
+}
+
+#colour3 {
+  background-color: #7B2D26;
+}
+
+#colour4 {
+  background-color: #4F000B;
+}
+
+#colour5 {
+  background-color: #A57982;
+}
+
+#colour6 {
+  background-color: #C8D6AF;
+  color: black;
+}
+
+/* font cards */
+
+.fontCardContainer {
+  height: 80%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.fontCard {
+  padding: 5%;
+  text-align: center;
+  border: dotted 2px #394648;
+}
+
+/*Monserrat Font*/
+#monserratTitle {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#monserrat1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+#monserrat2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+#monserrat3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/*Robot Font*/
+#robotoTitle {
+  font-family: 'Roboto', sans-serif;
+}
+
+#roboto1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+#roboto2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#roboto3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+/*Playfair Display Font*/
+
+#playfairTitle {
+  font-family: 'Playfair Display', serif;
+}
+
+#playfair1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+#playfair2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#playfair3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+
+/*Style Cards*/
+.styleCardContainer {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.styleCard {
+  padding: 5%;
+  width: 50%;
+  text-align: center;
+  border: dotted 2px #394648;
+}
+
+.styleCard li {
+  display: list-item;
+}
+
+/*Text Styles*/
+
+#h1Style {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#h2Style {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#paragraphStyle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
