@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  background-color: whitesmoke;
+}
+
+header {
+  width: 100%;
+  height: 7rem;
+  background-color: #A0AAB2;
+  border: solid red 1px;
+  opacity: 0.8;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  color: white;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size: 2rem;
+}
+
+.logoContainer {
+  padding: 3rem;
+}
+
+.homeBanner {
+  width: 100%;
+  height: 30rem;
+
+  border: solid purple 1px;
+}
+
+.homeBanner div {
+  height: 14rem;
+  width: 25%;
+
+  padding: 2rem;
+  margin-top: 2%;
+  margin-left: 20%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+  opacity: 0.75;
+}
+
+.topImageContainer {
+  width: 100%;
+  background-image: url("./Images/anna-auza-nubGXRkckLo-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+button {
+  width: 5rem;
+  height: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.homeIntro {
+  width: 100%;
+  height: 27rem;
+  padding: 3rem 20rem;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+
+  background-color: #4C555D;
+}
+
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  width: 100%;
+  height: 5rem;
+
+  background-color: #A0AAB2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .homeIntro {
+    padding: 3rem 5rem;
+  }
+
+  html {
+    font-size: 12px;
+  }
+  .homeBanner div {
+    height: 14rem;
+    width: 50%;
+  
+    padding: 2rem;
+    margin-top: 2%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logoContainer {
+    padding: 1rem;
+  }
+  li {
+    list-style-type: none;
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+}
